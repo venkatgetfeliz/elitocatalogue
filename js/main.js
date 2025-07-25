@@ -42,9 +42,30 @@ class ElitoCatalogue {
                 size: "30cm",
                 quantity: 50,
                 series: "traditional",
-                image: "images/products/FE03-dosa-tawa-30cm.jpg",
+                images: [
+                    "images/products/FE03-dosa-tawa-30cm/FE03-dosa-tawa-30cm-main.jpg",
+                    "images/products/FE03-dosa-tawa-30cm/FE03-dosa-tawa-30cm-side.jpg",
+                    "images/products/FE03-dosa-tawa-30cm/FE03-dosa-tawa-30cm-inuse.jpg"
+                ],
                 bestseller: true,
-                description: "Perfect for making crispy dosas with authentic taste"
+                description: "Perfect for making crispy dosas with authentic taste",
+                detailedDescription: "Our flagship 30cm Cast Iron Dosa Tawa is the perfect companion for making authentic South Indian dosas. Crafted from premium cast iron, this tawa provides superior heat retention and even distribution, ensuring your dosas cook perfectly every time.",
+                features: [
+                    "Even heat distribution across the entire surface",
+                    "Pre-seasoned with natural oils for immediate use",
+                    "Iron fortification adds nutrients to your food",
+                    "Develops natural non-stick properties over time",
+                    "Perfect 30cm size for family portions",
+                    "Compatible with gas, electric, and induction cooktops"
+                ],
+                specifications: {
+                    "diameter": "30cm",
+                    "weight": "2.4kg",
+                    "thickness": "4mm",
+                    "material": "100% Pure Cast Iron",
+                    "finish": "Pre-seasoned",
+                    "warranty": "Lifetime with proper care"
+                }
             },
             {
                 code: "FE04",
@@ -52,8 +73,27 @@ class ElitoCatalogue {
                 size: "26cm",
                 quantity: 50,
                 series: "traditional",
-                image: "images/products/FE04-roti-tawa-26cm.jpg",
-                description: "Ideal for soft rotis and chapatis"
+                images: [
+                    "images/products/FE04-roti-tawa-26cm/FE04-roti-tawa-26cm-main.jpg",
+                    "images/products/FE04-roti-tawa-26cm/FE04-roti-tawa-26cm-top.jpg",
+                    "images/products/FE04-roti-tawa-26cm/FE04-roti-tawa-26cm-cooking.jpg"
+                ],
+                description: "Ideal for soft rotis and chapatis with perfect browning",
+                detailedDescription: "Create the softest, most flavorful rotis with our 26cm Cast Iron Roti Tawa. The flat, smooth surface ensures even cooking while the cast iron material retains heat beautifully.",
+                features: [
+                    "Flat surface design for perfect roti cooking",
+                    "Quick and even heating",
+                    "Easy to clean and maintain",
+                    "Natural iron supplementation",
+                    "Compact 26cm size perfect for daily use"
+                ],
+                specifications: {
+                    "diameter": "26cm",
+                    "weight": "1.8kg",
+                    "thickness": "3.5mm",
+                    "material": "100% Pure Cast Iron",
+                    "finish": "Pre-seasoned"
+                }
             },
             {
                 code: "FE06",
@@ -61,8 +101,26 @@ class ElitoCatalogue {
                 size: "12 Pits, 20cm",
                 quantity: 50,
                 series: "traditional",
-                image: "images/products/FE06-paniyaram-pan-20cm.jpg",
-                description: "Make 12 paniyarams at once"
+                images: [
+                    "images/products/FE06-paniyaram-pan-20cm/FE06-paniyaram-pan-20cm-main.jpg",
+                    "images/products/FE06-paniyaram-pan-20cm/FE06-paniyaram-pan-20cm-detail.jpg",
+                    "images/products/FE06-paniyaram-pan-20cm/FE06-paniyaram-pan-20cm-filled.jpg"
+                ],
+                description: "Make 12 perfectly shaped paniyarams at once",
+                detailedDescription: "Traditional South Indian cooking made easy with our 12-pit Paniyaram Pan. Each pit is perfectly shaped to create uniform, round paniyarams that cook evenly.",
+                features: [
+                    "12 perfectly shaped pits for uniform cooking",
+                    "Even heat distribution to all pits",
+                    "Traditional design for authentic taste",
+                    "Suitable for both sweet and savory preparations",
+                    "Easy release with proper seasoning"
+                ],
+                specifications: {
+                    "diameter": "20cm",
+                    "pits": "12",
+                    "weight": "1.5kg",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "FE07",
@@ -70,8 +128,26 @@ class ElitoCatalogue {
                 size: "24cm",
                 quantity: 50,
                 series: "traditional",
-                image: "images/products/FE07-kadai-24cm.jpg",
-                description: "Versatile kadai for all your cooking needs"
+                images: [
+                    "images/products/FE07-kadai-24cm/FE07-kadai-24cm-main.jpg",
+                    "images/products/FE07-kadai-24cm/FE07-kadai-24cm-angle.jpg",
+                    "images/products/FE07-kadai-24cm/FE07-kadai-24cm-cooking.jpg"
+                ],
+                description: "Versatile kadai for all your cooking needs",
+                detailedDescription: "Our 24cm Cast Iron Kadai is the ultimate multi-purpose cooking vessel. From deep frying samosas to cooking curries, this kadai handles it all with superior heat retention.",
+                features: [
+                    "Deep frying capability",
+                    "Curved bottom design for efficient cooking",
+                    "Multi-purpose use for various dishes",
+                    "Superior heat retention",
+                    "Perfect size for family cooking"
+                ],
+                specifications: {
+                    "diameter": "24cm",
+                    "depth": "8cm",
+                    "weight": "2.2kg",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "FE09",
@@ -79,8 +155,26 @@ class ElitoCatalogue {
                 size: "26cm",
                 quantity: 50,
                 series: "traditional",
-                image: "images/products/FE09-dosa-tawa-26cm.jpg",
-                description: "Compact size for smaller kitchens"
+                images: [
+                    "images/products/FE09-dosa-tawa-26cm/FE09-dosa-tawa-26cm-main.jpg",
+                    "images/products/FE09-dosa-tawa-26cm/FE09-dosa-tawa-26cm-surface.jpg",
+                    "images/products/FE09-dosa-tawa-26cm/FE09-dosa-tawa-26cm-inuse.jpg"
+                ],
+                description: "Compact size for smaller kitchens",
+                detailedDescription: "Perfect for smaller families or compact kitchens, our 26cm Cast Iron Dosa Tawa delivers the same authentic taste and health benefits in a more manageable size.",
+                features: [
+                    "Space-saving design",
+                    "Perfect for 2-4 people",
+                    "Easy handling and storage",
+                    "Same iron fortification benefits",
+                    "Quick heating due to smaller size"
+                ],
+                specifications: {
+                    "diameter": "26cm",
+                    "weight": "1.9kg",
+                    "thickness": "4mm",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "FE10",
@@ -88,8 +182,25 @@ class ElitoCatalogue {
                 size: "24cm",
                 quantity: 50,
                 series: "traditional",
-                image: "images/products/FE10-concave-tawa-24cm.jpg",
-                description: "Special concave design for unique cooking"
+                images: [
+                    "images/products/FE10-concave-tawa-24cm/FE10-concave-tawa-24cm-main.jpg",
+                    "images/products/FE10-concave-tawa-24cm/FE10-concave-tawa-24cm-profile.jpg",
+                    "images/products/FE10-concave-tawa-24cm/FE10-concave-tawa-24cm-cooking.jpg"
+                ],
+                description: "Special concave design for unique cooking",
+                detailedDescription: "Our Concave Tawa features a unique curved design that prevents oil pooling and provides versatile cooking options for various Indian breads and dishes.",
+                features: [
+                    "Concave cooking surface",
+                    "Oil pooling prevention",
+                    "Versatile cooking applications",
+                    "Even heat distribution",
+                    "Easy food handling"
+                ],
+                specifications: {
+                    "diameter": "24cm",
+                    "weight": "2.0kg",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "FE15",
@@ -97,8 +208,25 @@ class ElitoCatalogue {
                 size: "15cm",
                 quantity: 50,
                 series: "traditional",
-                image: "images/products/FE15-skillet-15cm.jpg",
-                description: "Perfect for frying and searing"
+                images: [
+                    "images/products/FE15-skillet-15cm/FE15-skillet-15cm-main.jpg",
+                    "images/products/FE15-skillet-15cm/FE15-skillet-15cm-side.jpg",
+                    "images/products/FE15-skillet-15cm/FE15-skillet-15cm-frying.jpg"
+                ],
+                description: "Perfect for frying and searing",
+                detailedDescription: "Compact yet powerful, our 15cm Cast Iron Skillet is ideal for small portions, individual servings, and precise cooking tasks.",
+                features: [
+                    "Compact size for individual portions",
+                    "High heat retention",
+                    "Perfect for searing and frying",
+                    "Easy to handle",
+                    "Ideal for small kitchens"
+                ],
+                specifications: {
+                    "diameter": "15cm",
+                    "weight": "1.2kg",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "FE16",
@@ -106,8 +234,26 @@ class ElitoCatalogue {
                 size: "20cm - Curved Handle",
                 quantity: 50,
                 series: "traditional",
-                image: "images/products/FE16-kadai-curved-handle-20cm.jpg",
-                description: "Ergonomic curved handle design"
+                images: [
+                    "images/products/FE16-kadai-curved-handle-20cm/FE16-kadai-curved-handle-20cm-main.jpg",
+                    "images/products/FE16-kadai-curved-handle-20cm/FE16-kadai-curved-handle-20cm-handle.jpg",
+                    "images/products/FE16-kadai-curved-handle-20cm/FE16-kadai-curved-handle-20cm-cooking.jpg"
+                ],
+                description: "Ergonomic curved handle design",
+                detailedDescription: "Featuring an ergonomically designed curved handle, this kadai provides better grip and reduced fatigue during cooking sessions.",
+                features: [
+                    "Curved handle for comfort",
+                    "Better grip and control",
+                    "Reduced cooking fatigue",
+                    "Compact 20cm size",
+                    "Perfect for daily use"
+                ],
+                specifications: {
+                    "diameter": "20cm",
+                    "weight": "1.8kg",
+                    "handleType": "Curved ergonomic",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "FE13",
@@ -115,8 +261,25 @@ class ElitoCatalogue {
                 size: "4 inch",
                 quantity: 25,
                 series: "traditional",
-                image: "images/products/FE13-tadka-pan-4inch.jpg",
-                description: "Essential for tempering spices"
+                images: [
+                    "images/products/FE13-tadka-pan-4inch/FE13-tadka-pan-4inch-main.jpg",
+                    "images/products/FE13-tadka-pan-4inch/FE13-tadka-pan-4inch-size.jpg",
+                    "images/products/FE13-tadka-pan-4inch/FE13-tadka-pan-4inch-tempering.jpg"
+                ],
+                description: "Essential for tempering spices",
+                detailedDescription: "A must-have for every Indian kitchen, our small Tadka Pan is perfect for tempering spices and preparing small portions.",
+                features: [
+                    "Perfect size for tempering",
+                    "Quick heating",
+                    "Essential kitchen tool",
+                    "Easy to handle",
+                    "Traditional design"
+                ],
+                specifications: {
+                    "diameter": "4 inch",
+                    "weight": "0.8kg",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             // Premium White Handle Series
             {
@@ -125,9 +288,27 @@ class ElitoCatalogue {
                 size: "300mm",
                 quantity: 50,
                 series: "premium",
-                image: "images/products/LW01-wh-dosa-tawa-300mm.jpg",
+                images: [
+                    "images/products/LW01-wh-dosa-tawa-300mm/LW01-wh-dosa-tawa-300mm-main.jpg",
+                    "images/products/LW01-wh-dosa-tawa-300mm/LW01-wh-dosa-tawa-300mm-handle.jpg",
+                    "images/products/LW01-wh-dosa-tawa-300mm/LW01-wh-dosa-tawa-300mm-cooking.jpg"
+                ],
                 bestseller: true,
-                description: "Premium white handle dosa tawa"
+                description: "Premium white handle dosa tawa",
+                detailedDescription: "Combining traditional cast iron benefits with modern ergonomic design, our Premium White Handle Dosa Tawa features a heat-resistant white handle for comfortable grip.",
+                features: [
+                    "Premium white handle for comfortable grip",
+                    "Heat-resistant handle design",
+                    "Professional finish and appearance",
+                    "Same cast iron cooking benefits",
+                    "Easy to clean and maintain"
+                ],
+                specifications: {
+                    "diameter": "300mm",
+                    "weight": "2.5kg",
+                    "handleType": "Heat-resistant white handle",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "LW02",
@@ -135,8 +316,26 @@ class ElitoCatalogue {
                 size: "205mm",
                 quantity: 50,
                 series: "premium",
-                image: "images/products/LW02-wh-roti-tawa-205mm.jpg",
-                description: "Elegant white handle roti tawa"
+                images: [
+                    "images/products/LW02-wh-roti-tawa-205mm/LW02-wh-roti-tawa-205mm-main.jpg",
+                    "images/products/LW02-wh-roti-tawa-205mm/LW02-wh-roti-tawa-205mm-handle.jpg",
+                    "images/products/LW02-wh-roti-tawa-205mm/LW02-wh-roti-tawa-205mm-cooking.jpg"
+                ],
+                description: "Elegant white handle roti tawa",
+                detailedDescription: "Perfect for daily roti making with the added comfort of our signature white handle design.",
+                features: [
+                    "Elegant white handle design",
+                    "Comfortable grip for daily use",
+                    "Easy maintenance",
+                    "Professional appearance",
+                    "Perfect roti cooking surface"
+                ],
+                specifications: {
+                    "diameter": "205mm",
+                    "weight": "1.9kg",
+                    "handleType": "Heat-resistant white handle",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "LW03",
@@ -144,8 +343,26 @@ class ElitoCatalogue {
                 size: "255mm (10 inch)",
                 quantity: 50,
                 series: "premium",
-                image: "images/products/LW03-wh-kadai-255mm.jpg",
-                description: "Large kadai with premium white handle"
+                images: [
+                    "images/products/LW03-wh-kadai-255mm/LW03-wh-kadai-255mm-main.jpg",
+                    "images/products/LW03-wh-kadai-255mm/LW03-wh-kadai-255mm-handle.jpg",
+                    "images/products/LW03-wh-kadai-255mm/LW03-wh-kadai-255mm-cooking.jpg"
+                ],
+                description: "Large kadai with premium white handle",
+                detailedDescription: "Our largest premium kadai perfect for family cooking with the comfort of heat-resistant white handles.",
+                features: [
+                    "Large cooking capacity",
+                    "Premium white handle design",
+                    "Professional grade quality",
+                    "Heat-resistant handles",
+                    "Perfect for family meals"
+                ],
+                specifications: {
+                    "diameter": "255mm",
+                    "weight": "2.8kg",
+                    "handleType": "Heat-resistant white handle",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "LW04",
@@ -153,8 +370,26 @@ class ElitoCatalogue {
                 size: "205mm (8 inch)",
                 quantity: 50,
                 series: "premium",
-                image: "images/products/LW04-wh-kadai-205mm.jpg",
-                description: "Compact kadai with white handle"
+                images: [
+                    "images/products/LW04-wh-kadai-205mm/LW04-wh-kadai-205mm-main.jpg",
+                    "images/products/LW04-wh-kadai-205mm/LW04-wh-kadai-205mm-handle.jpg",
+                    "images/products/LW04-wh-kadai-205mm/LW04-wh-kadai-205mm-cooking.jpg"
+                ],
+                description: "Compact kadai with white handle",
+                detailedDescription: "Perfect size for small families with all the premium features and comfortable white handle design.",
+                features: [
+                    "Compact design for small families",
+                    "White handle comfort",
+                    "Easy storage",
+                    "Professional appearance",
+                    "Versatile cooking"
+                ],
+                specifications: {
+                    "diameter": "205mm",
+                    "weight": "2.1kg",
+                    "handleType": "Heat-resistant white handle",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "LW05",
@@ -162,8 +397,26 @@ class ElitoCatalogue {
                 size: "255mm (10 inch)",
                 quantity: 50,
                 series: "premium",
-                image: "images/products/LW05-wh-wok-255mm.jpg",
-                description: "Perfect for stir-frying"
+                images: [
+                    "images/products/LW05-wh-wok-255mm/LW05-wh-wok-255mm-main.jpg",
+                    "images/products/LW05-wh-wok-255mm/LW05-wh-wok-255mm-handle.jpg",
+                    "images/products/LW05-wh-wok-255mm/LW05-wh-wok-255mm-stirfry.jpg"
+                ],
+                description: "Perfect for stir-frying",
+                detailedDescription: "Traditional wok design with modern white handle comfort, perfect for high-heat stir-frying and Asian cooking techniques.",
+                features: [
+                    "Traditional wok shape",
+                    "High heat cooking capability",
+                    "Stir-fry specialist",
+                    "Comfortable white handle",
+                    "Professional results"
+                ],
+                specifications: {
+                    "diameter": "255mm",
+                    "weight": "2.3kg",
+                    "handleType": "Heat-resistant white handle",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "LW06",
@@ -171,8 +424,26 @@ class ElitoCatalogue {
                 size: "255mm (10 inch)",
                 quantity: 50,
                 series: "premium",
-                image: "images/products/LW06-wh-frypan-255mm.jpg",
-                description: "Large frying pan with white handle"
+                images: [
+                    "images/products/LW06-wh-frypan-255mm/LW06-wh-frypan-255mm-main.jpg",
+                    "images/products/LW06-wh-frypan-255mm/LW06-wh-frypan-255mm-handle.jpg",
+                    "images/products/LW06-wh-frypan-255mm/LW06-wh-frypan-255mm-frying.jpg"
+                ],
+                description: "Large frying pan with white handle",
+                detailedDescription: "Spacious frying surface with premium white handle design for comfortable cooking of larger portions.",
+                features: [
+                    "Large frying surface",
+                    "Even heat distribution",
+                    "Premium white handle",
+                    "Professional finish",
+                    "Comfortable grip"
+                ],
+                specifications: {
+                    "diameter": "255mm",
+                    "weight": "2.4kg",
+                    "handleType": "Heat-resistant white handle",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "LW07",
@@ -180,8 +451,26 @@ class ElitoCatalogue {
                 size: "205mm (8 inch)",
                 quantity: 50,
                 series: "premium",
-                image: "images/products/LW07-wh-frypan-205mm.jpg",
-                description: "Compact frying pan"
+                images: [
+                    "images/products/LW07-wh-frypan-205mm/LW07-wh-frypan-205mm-main.jpg",
+                    "images/products/LW07-wh-frypan-205mm/LW07-wh-frypan-205mm-handle.jpg",
+                    "images/products/LW07-wh-frypan-205mm/LW07-wh-frypan-205mm-cooking.jpg"
+                ],
+                description: "Compact frying pan",
+                detailedDescription: "Perfect portion size for individuals or couples with the same premium white handle comfort and cast iron benefits.",
+                features: [
+                    "Perfect portion size",
+                    "Easy handling",
+                    "Quick cooking",
+                    "White handle comfort",
+                    "Compact storage"
+                ],
+                specifications: {
+                    "diameter": "205mm",
+                    "weight": "1.7kg",
+                    "handleType": "Heat-resistant white handle",
+                    "material": "100% Pure Cast Iron"
+                }
             },
             {
                 code: "LW08",
@@ -189,8 +478,27 @@ class ElitoCatalogue {
                 size: "280mm (11 inch)",
                 quantity: 50,
                 series: "premium",
-                image: "images/products/LW08-wh-grillpan-280mm.jpg",
-                description: "Professional grilling at home"
+                images: [
+                    "images/products/LW08-wh-grillpan-280mm/LW08-wh-grillpan-280mm-main.jpg",
+                    "images/products/LW08-wh-grillpan-280mm/LW08-wh-grillpan-280mm-ridges.jpg",
+                    "images/products/LW08-wh-grillpan-280mm/LW08-wh-grillpan-280mm-grilling.jpg"
+                ],
+                description: "Professional grilling at home",
+                detailedDescription: "Bring restaurant-quality grilling to your home kitchen with our ridged grill pan featuring comfortable white handles.",
+                features: [
+                    "Ridged cooking surface for grill marks",
+                    "Professional grilling results",
+                    "Healthy cooking with fat drainage",
+                    "Large cooking surface",
+                    "Heat-resistant white handles"
+                ],
+                specifications: {
+                    "diameter": "280mm",
+                    "weight": "2.9kg",
+                    "handleType": "Heat-resistant white handle",
+                    "material": "100% Pure Cast Iron",
+                    "surface": "Ridged for grilling"
+                }
             }
         ];
     }
