@@ -530,26 +530,16 @@ class ElitoCatalogue {
         const bestsellerBadge = product.bestseller ? 
             '<div class="bestseller-badge">Bestseller</div>' : '';
         
-        const imageCarousel = product.images ? 
-            product.images.map((img, index) => 
-                `<img src="${img}" alt="${product.name} view ${index + 1}" class="carousel-image" loading="lazy">`
-            ).join('') : 
-            `<span style="color: #aaa; font-size: 3rem; display: flex; align-items: center; justify-content: center; width: 33.333%; height: 100%;">${this.getProductEmoji(product.name)}</span>`;
-        
-        const indicators = product.images ? 
-            product.images.map((_, index) => 
-                `<div class="indicator-dot ${index === 0 ? 'active' : ''}"></div>`
-            ).join('') : '';
+        // Use only the first image or fallback to emoji
+        const productImage = product.images && product.images.length > 0 ? 
+            `<img src="${product.images[0]}" alt="${product.name}" class="product-main-image" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+             <div class="product-fallback-icon" style="display: none; color: #aaa; font-size: 3rem; align-items: center; justify-content: center; width: 100%; height: 100%;">${this.getProductEmoji(product.name)}</div>` : 
+            `<div class="product-fallback-icon" style="color: #aaa; font-size: 3rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">${this.getProductEmoji(product.name)}</div>`;
         
         return `
             <div class="product-card" data-product="${product.code}" onclick="window.elitoCatalogue.openProductModal('${product.code}')">
                 <div class="product-image">
-                    <div class="image-carousel">
-                        ${imageCarousel}
-                    </div>
-                    <div class="image-indicators">
-                        ${indicators}
-                    </div>
+                    ${productImage}
                     ${bestsellerBadge}
                 </div>
                 <div class="product-info">
@@ -595,7 +585,7 @@ class ElitoCatalogue {
 
     getModalHTML(product) {
         const mainImage = product.images ? product.images[0] : '';
-        const thumbnails = product.images ? 
+        const thumbnails = product.images && product.images.length > 1 ? 
             product.images.map((img, index) => 
                 `<img src="${img}" alt="${product.name} view ${index + 1}" class="thumbnail ${index === 0 ? 'active' : ''}" data-index="${index}">`
             ).join('') : '';
@@ -619,7 +609,7 @@ class ElitoCatalogue {
                     <img src="${mainImage}" alt="${product.name}" class="gallery-main" id="gallery-main">
                 </div>
                 
-                ${product.images && product.images.length > 1 ? `
+                ${thumbnails ? `
                 <div class="gallery-thumbnails">
                     ${thumbnails}
                 </div>
@@ -739,28 +729,6 @@ class ElitoCatalogue {
 
         // Handle image loading errors
         this.setupImageErrorHandling();
-
-        // Setup carousel indicators
-        this.setupCarouselIndicators();
-    }
-
-    setupCarouselIndicators() {
-        document.addEventListener('animationiteration', (e) => {
-            if (e.animationName === 'slideImages') {
-                const productCard = e.target.closest('.product-card');
-                const indicators = productCard.querySelectorAll('.indicator-dot');
-                const currentTime = e.elapsedTime;
-                const cycleTime = 4; // Total animation duration
-                const phaseTime = cycleTime / 3; // Time per image
-                
-                indicators.forEach(dot => dot.classList.remove('active'));
-                
-                const activeIndex = Math.floor((currentTime % cycleTime) / phaseTime);
-                if (indicators[activeIndex]) {
-                    indicators[activeIndex].classList.add('active');
-                }
-            }
-        });
     }
 
     handleProductClick(productCard) {
