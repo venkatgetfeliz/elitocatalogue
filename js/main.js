@@ -40,7 +40,6 @@ class ElitoCatalogue {
                 code: "FE03",
                 name: "Cast Iron Dosa Tawa",
                 size: "30cm",
-                quantity: 50,
                 series: "traditional",
                 images: [
                     "images/products/FE03-dosa-tawa-30cm/FE03-dosa-tawa-30cm-main.jpg",
