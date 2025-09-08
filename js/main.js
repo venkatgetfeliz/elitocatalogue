@@ -129,7 +129,7 @@ class ElitoCatalogue {
                 quantity: 50,
                 series: "traditional",
                 images: [
-                    "images/products/FE07-kadai-24cm/FE07-kadai-24cm.jpg",
+                    "images/products/FE07-kadai-24cm/FE07-kadai-24cm-main.jpg",
                     "images/products/FE07-kadai-24cm/FE07-kadai-24cm-angle.jpg",
                     "images/products/FE07-kadai-24cm/FE07-kadai-24cm-cooking.jpg"
                 ],
