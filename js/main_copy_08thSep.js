@@ -547,6 +547,7 @@ class ElitoCatalogue {
                     <div class="product-name">${product.name}</div>
                     <div class="product-specs">
                         <span class="product-size">${product.size}</span>
+                        <span class="product-qty">${product.quantity} Units</span>
                     </div>
                 </div>
             </div>
